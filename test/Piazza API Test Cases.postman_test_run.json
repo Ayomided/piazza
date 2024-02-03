@@ -1,0 +1,1462 @@
+{
+	"id": "d9cfaebe-19a0-4890-9459-f897a6ce3312",
+	"name": "Piazza API Test Cases",
+	"timestamp": "2023-12-08T01:07:16.940Z",
+	"collection_id": "30501790-37713b23-0907-4f0c-b8de-af6c6a6ced05",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 89,
+	"delay": "2000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-12-08T01:05:51.294Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "f3719fd3-cb27-4f53-a1ca-64d91cdad543",
+			"name": "Register User - Olga",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 365,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Schema is Valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				365
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Schema is Valid": true
+				}
+			]
+		},
+		{
+			"id": "ef898a6e-afa1-496b-81af-a4303c7fd825",
+			"name": "Register User - Olga Re",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 110,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"User is already registered": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"User is already registered": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"User is already registered": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "e312473d-6aa3-450d-aa2d-14033102cadf",
+			"name": "Register User - Nick",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 319,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Schema is Valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Schema is Valid": true
+				}
+			]
+		},
+		{
+			"id": "7b2c6e90-09a4-4300-aa56-4c4b679e01ef",
+			"name": "Register User - Nick Re",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 110,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"User is already registered": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"User is already registered": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"User is already registered": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "1e351bdb-2180-4f15-a47e-32cee95157b5",
+			"name": "Register User - Mary",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 326,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Schema is Valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				326
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Schema is Valid": true
+				}
+			]
+		},
+		{
+			"id": "c0d3133d-e41b-4d4e-b092-168a63dcb0c4",
+			"name": "Register User - Mary Re",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 118,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"User is already registered": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"User is already registered": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"User is already registered": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "427b971c-a0cf-4d38-90a2-4435fdf82fb6",
+			"name": "Register User - Nestor",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 319,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Schema is Valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Schema is Valid": true
+				}
+			]
+		},
+		{
+			"id": "a6038e52-9c52-4f97-9389-b234941b0e3a",
+			"name": "Register User - Nestor Re",
+			"url": "localhost:3000/api/v1/auth/register",
+			"time": 409,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"User is already registered": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"User is already registered": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				409
+			],
+			"allTests": [
+				{
+					"User is already registered": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "37156425-6cb6-4999-9900-6e7f3ecd41b7",
+			"name": "Login User - Olga",
+			"url": "localhost:3000/api/v1/auth/login",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is returned": true
+				}
+			]
+		},
+		{
+			"id": "a9f9912b-966d-49fa-a741-5f58a72a19d0",
+			"name": "Login User - Nick",
+			"url": "localhost:3000/api/v1/auth/login",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is returned": true
+				}
+			]
+		},
+		{
+			"id": "c55cd654-2644-4147-a87e-7651a68af012",
+			"name": "Login User - Mary",
+			"url": "localhost:3000/api/v1/auth/login",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is returned": true
+				}
+			]
+		},
+		{
+			"id": "e2db7ed7-beab-4e81-a854-dc538133183d",
+			"name": "Login User - Nestor",
+			"url": "localhost:3000/api/v1/auth/login",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is returned": true
+				}
+			]
+		},
+		{
+			"id": "339376c2-f162-46f6-adfe-37b6ceab1a7e",
+			"name": "Create new Post",
+			"url": "localhost:3000/api/v1/posts",
+			"time": 5,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Access is denied": true,
+				"Token is not used": true,
+				"Status Code is 401": true
+			},
+			"testPassFailCounts": {
+				"Access is denied": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is not used": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status Code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Access is denied": true,
+					"Token is not used": true,
+					"Status Code is 401": true
+				}
+			]
+		},
+		{
+			"id": "066bc63f-59e5-45e7-b1ac-e6190ca6b977",
+			"name": "Create new Post Olga",
+			"url": "localhost:3000/api/v1/posts",
+			"time": 218,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Token is Valid for Olga": true,
+				"Status code is 201": true,
+				"Schema is Valid": true,
+				"PostId is Set": true
+			},
+			"testPassFailCounts": {
+				"Token is Valid for Olga": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PostId is Set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"Token is Valid for Olga": true,
+					"Status code is 201": true,
+					"Schema is Valid": true,
+					"PostId is Set": true
+				}
+			]
+		},
+		{
+			"id": "6c34b696-29da-4b7d-b178-23806bfdbd89",
+			"name": "Create new Post Nick",
+			"url": "localhost:3000/api/v1/posts",
+			"time": 223,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Token is Valid for Nick": true,
+				"Status code is 201": true,
+				"Schema is Valid": true,
+				"PostId is Set": true
+			},
+			"testPassFailCounts": {
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PostId is Set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Token is Valid for Nick": true,
+					"Status code is 201": true,
+					"Schema is Valid": true,
+					"PostId is Set": true
+				}
+			]
+		},
+		{
+			"id": "33db2a07-126b-4f5b-8158-c2cc91eb8961",
+			"name": "Create new Post Mary",
+			"url": "localhost:3000/api/v1/posts",
+			"time": 222,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Token is Valid for Mary": true,
+				"Status code is 201": true,
+				"Schema is Valid": true,
+				"PostId is Set": true
+			},
+			"testPassFailCounts": {
+				"Token is Valid for Mary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PostId is Set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Token is Valid for Mary": true,
+					"Status code is 201": true,
+					"Schema is Valid": true,
+					"PostId is Set": true
+				}
+			]
+		},
+		{
+			"id": "62d059ac-d500-4c08-9367-10648c3da0ab",
+			"name": "Get Post by Topic(tech) - Nick",
+			"url": "localhost:3000/api/v1/posts?topic=tech",
+			"time": 685,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Nick": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				685
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Nick": true
+				}
+			]
+		},
+		{
+			"id": "cf1ac1be-d855-4258-bef9-f9cc2f76ea6b",
+			"name": "Get Post by Topic(tech) - Olga",
+			"url": "localhost:3000/api/v1/posts?topic=tech",
+			"time": 698,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Olga": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Olga": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				698
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Olga": true
+				}
+			]
+		},
+		{
+			"id": "e9192ca5-2d0e-4f96-bb1c-319056d298ae",
+			"name": "Likes Post Nick",
+			"url": "localhost:3000/api/v1/posts/like/65726c13415153d793a3a218",
+			"time": 332,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for nick": true,
+				"Post Status is Live": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for nick": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Post Status is Live": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				332
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for nick": true,
+					"Post Status is Live": true
+				}
+			]
+		},
+		{
+			"id": "3cd2f6a8-6161-4e46-8173-22e16b9d61c1",
+			"name": "Likes Post Olga",
+			"url": "localhost:3000/api/v1/posts/like/65726c13415153d793a3a218",
+			"time": 316,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Olga": true,
+				"Post Status is Live": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Olga": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Post Status is Live": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				316
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Olga": true,
+					"Post Status is Live": true
+				}
+			]
+		},
+		{
+			"id": "c7c4336d-d1b8-4bc6-9d8d-214ce1cdd93f",
+			"name": "Likes Post Nestor",
+			"url": "localhost:3000/api/v1/posts/like/65726c11415153d793a3a215",
+			"time": 314,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Nestor": true,
+				"Post Status is Live": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Post Status is Live": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Nestor": true,
+					"Post Status is Live": true
+				}
+			]
+		},
+		{
+			"id": "857c0a1d-d9c5-40b8-a112-4f337b0c4363",
+			"name": "Dislikes Post Nestor",
+			"url": "localhost:3000/api/v1/posts/dislike/65726c13415153d793a3a218",
+			"time": 306,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Nestor": true,
+				"Post Status is Live": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Post Status is Live": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Nestor": true,
+					"Post Status is Live": true
+				}
+			]
+		},
+		{
+			"id": "23fa1778-94fb-4b0b-bf64-e2b9a07706d3",
+			"name": "Get Post by Topic(tech) - Nick 2",
+			"url": "localhost:3000/api/v1/posts?topic=tech",
+			"time": 1304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Nick": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1304
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Nick": true
+				}
+			]
+		},
+		{
+			"id": "8a784904-22b9-4010-8aad-56c5d33b4d11",
+			"name": "Likes Own Post Mary",
+			"url": "localhost:3000/api/v1/posts/like/65726c13415153d793a3a218",
+			"time": 205,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Token is Valid for Mary": true,
+				"Cannot Like Own Post is True": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Mary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cannot Like Own Post is True": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Token is Valid for Mary": true,
+					"Cannot Like Own Post is True": true
+				}
+			]
+		},
+		{
+			"id": "327effc4-5eaf-4c50-aef9-8751e65957bd",
+			"name": "Comment Post Nick",
+			"url": "localhost:3000/api/v1/posts/comment/65726c13415153d793a3a218",
+			"time": 612,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Nick": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				612
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Nick": true
+				}
+			]
+		},
+		{
+			"id": "497ac406-a152-4dfe-82bd-493f0747fc32",
+			"name": "Comment Post Nick Re",
+			"url": "localhost:3000/api/v1/posts/comment/65726c13415153d793a3a218",
+			"time": 307,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Nick": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				307
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Nick": true
+				}
+			]
+		},
+		{
+			"id": "9616d68a-d0ee-4095-bc3e-ad7938874d97",
+			"name": "Comment Post Olga",
+			"url": "localhost:3000/api/v1/posts/comment/65726c13415153d793a3a218",
+			"time": 312,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Olga": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Olga": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Olga": true
+				}
+			]
+		},
+		{
+			"id": "cc874b6c-8568-4937-bee6-27f07a1bf3ae",
+			"name": "Comment Post Olga Re",
+			"url": "localhost:3000/api/v1/posts/comment/65726c13415153d793a3a218",
+			"time": 327,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Token is Valid for Olga": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Olga": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Token is Valid for Olga": true
+				}
+			]
+		},
+		{
+			"id": "eb4def4f-a583-4bf2-82dd-bc832cd5f420",
+			"name": "Get Post by Topic(tech) - Nick 3",
+			"url": "localhost:3000/api/v1/posts?topic=tech",
+			"time": 707,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Nick": true,
+				"Like count is 2 on Marys Post": true,
+				"Dislike count is 1 on Marys Post": true,
+				"Comment count is 3 or more on Marys Post": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nick": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Like count is 2 on Marys Post": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dislike count is 1 on Marys Post": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Comment count is 3 or more on Marys Post": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				707
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Nick": true,
+					"Like count is 2 on Marys Post": true,
+					"Dislike count is 1 on Marys Post": true,
+					"Comment count is 3 or more on Marys Post": true
+				}
+			]
+		},
+		{
+			"id": "90b2d98e-84b6-4feb-8038-4f265fab1e22",
+			"name": "Create new Post Nestor",
+			"url": "localhost:3000/api/v1/posts",
+			"time": 522,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Token is Valid for Nestor": true,
+				"Status code is 201": true,
+				"Schema is Valid": true,
+				"PostId is Set": true
+			},
+			"testPassFailCounts": {
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is Valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PostId is Set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				522
+			],
+			"allTests": [
+				{
+					"Token is Valid for Nestor": true,
+					"Status code is 201": true,
+					"Schema is Valid": true,
+					"PostId is Set": true
+				}
+			]
+		},
+		{
+			"id": "3b8f3969-3d79-4c83-87ef-889303a7bb45",
+			"name": "Get Post by Topic(tech) - Mary",
+			"url": "localhost:3000/api/v1/posts?topic=health",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Mary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Mary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Mary": true
+				}
+			]
+		},
+		{
+			"id": "27f1c2e2-1119-4374-a87c-8a46cfef0d97",
+			"name": "Comment Post Mary",
+			"url": "localhost:3000/api/v1/posts/comment/65726c36415153d793a3a251",
+			"time": 224,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 201": false,
+				"Token is Valid for Mary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Token is Valid for Mary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 201": false,
+					"Token is Valid for Mary": true
+				}
+			]
+		},
+		{
+			"id": "2ceaf589-ddf0-4c16-9b00-f0a3db9edfc4",
+			"name": "Like Post Mary",
+			"url": "localhost:3000/api/v1/posts/like/65726c36415153d793a3a251",
+			"time": 213,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Token is Valid for Mary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Mary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Token is Valid for Mary": true
+				}
+			]
+		},
+		{
+			"id": "f7abfe93-c2f6-4ee2-bb00-a24302c49b50",
+			"name": "Get Post by Topic(health) - Nestor",
+			"url": "localhost:3000/api/v1/posts?topic=health",
+			"time": 611,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Nestor": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				611
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Nestor": true
+				}
+			]
+		},
+		{
+			"id": "4c0bf9e2-64a9-47c5-bcdf-c87442659552",
+			"name": "Get Post by Topic(sport) - Nestor",
+			"url": "localhost:3000/api/v1/posts?topic=sport",
+			"time": 108,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Token is Valid for Nestor": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Token is Valid for Nestor": true
+				}
+			]
+		},
+		{
+			"id": "2197a568-efd3-435a-ac23-dec5f53a6366",
+			"name": "Get Most Liked Post",
+			"url": "localhost:3000/api/v1/posts/activePosts/mostLikes",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Token is Valid for Nestor": true,
+				"Most liked is Marys Post": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Token is Valid for Nestor": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Most liked is Marys Post": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Token is Valid for Nestor": true,
+					"Most liked is Marys Post": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 11769,
+	"collection": {
+		"requests": [
+			{
+				"id": "f3719fd3-cb27-4f53-a1ca-64d91cdad543",
+				"method": "POST"
+			},
+			{
+				"id": "ef898a6e-afa1-496b-81af-a4303c7fd825",
+				"method": "POST"
+			},
+			{
+				"id": "e312473d-6aa3-450d-aa2d-14033102cadf",
+				"method": "POST"
+			},
+			{
+				"id": "7b2c6e90-09a4-4300-aa56-4c4b679e01ef",
+				"method": "POST"
+			},
+			{
+				"id": "1e351bdb-2180-4f15-a47e-32cee95157b5",
+				"method": "POST"
+			},
+			{
+				"id": "c0d3133d-e41b-4d4e-b092-168a63dcb0c4",
+				"method": "POST"
+			},
+			{
+				"id": "427b971c-a0cf-4d38-90a2-4435fdf82fb6",
+				"method": "POST"
+			},
+			{
+				"id": "a6038e52-9c52-4f97-9389-b234941b0e3a",
+				"method": "POST"
+			},
+			{
+				"id": "37156425-6cb6-4999-9900-6e7f3ecd41b7",
+				"method": "POST"
+			},
+			{
+				"id": "a9f9912b-966d-49fa-a741-5f58a72a19d0",
+				"method": "POST"
+			},
+			{
+				"id": "c55cd654-2644-4147-a87e-7651a68af012",
+				"method": "POST"
+			},
+			{
+				"id": "e2db7ed7-beab-4e81-a854-dc538133183d",
+				"method": "POST"
+			},
+			{
+				"id": "339376c2-f162-46f6-adfe-37b6ceab1a7e",
+				"method": "POST"
+			},
+			{
+				"id": "066bc63f-59e5-45e7-b1ac-e6190ca6b977",
+				"method": "POST"
+			},
+			{
+				"id": "6c34b696-29da-4b7d-b178-23806bfdbd89",
+				"method": "POST"
+			},
+			{
+				"id": "33db2a07-126b-4f5b-8158-c2cc91eb8961",
+				"method": "POST"
+			},
+			{
+				"id": "62d059ac-d500-4c08-9367-10648c3da0ab",
+				"method": "GET"
+			},
+			{
+				"id": "cf1ac1be-d855-4258-bef9-f9cc2f76ea6b",
+				"method": "GET"
+			},
+			{
+				"id": "e9192ca5-2d0e-4f96-bb1c-319056d298ae",
+				"method": "POST"
+			},
+			{
+				"id": "3cd2f6a8-6161-4e46-8173-22e16b9d61c1",
+				"method": "POST"
+			},
+			{
+				"id": "c7c4336d-d1b8-4bc6-9d8d-214ce1cdd93f",
+				"method": "POST"
+			},
+			{
+				"id": "857c0a1d-d9c5-40b8-a112-4f337b0c4363",
+				"method": "POST"
+			},
+			{
+				"id": "23fa1778-94fb-4b0b-bf64-e2b9a07706d3",
+				"method": "GET"
+			},
+			{
+				"id": "8a784904-22b9-4010-8aad-56c5d33b4d11",
+				"method": "POST"
+			},
+			{
+				"id": "327effc4-5eaf-4c50-aef9-8751e65957bd",
+				"method": "POST"
+			},
+			{
+				"id": "497ac406-a152-4dfe-82bd-493f0747fc32",
+				"method": "POST"
+			},
+			{
+				"id": "9616d68a-d0ee-4095-bc3e-ad7938874d97",
+				"method": "POST"
+			},
+			{
+				"id": "cc874b6c-8568-4937-bee6-27f07a1bf3ae",
+				"method": "POST"
+			},
+			{
+				"id": "eb4def4f-a583-4bf2-82dd-bc832cd5f420",
+				"method": "GET"
+			},
+			{
+				"id": "90b2d98e-84b6-4feb-8038-4f265fab1e22",
+				"method": "POST"
+			},
+			{
+				"id": "3b8f3969-3d79-4c83-87ef-889303a7bb45",
+				"method": "GET"
+			},
+			{
+				"id": "27f1c2e2-1119-4374-a87c-8a46cfef0d97",
+				"method": "POST"
+			},
+			{
+				"id": "2ceaf589-ddf0-4c16-9b00-f0a3db9edfc4",
+				"method": "POST"
+			},
+			{
+				"id": "f7abfe93-c2f6-4ee2-bb00-a24302c49b50",
+				"method": "GET"
+			},
+			{
+				"id": "4c0bf9e2-64a9-47c5-bcdf-c87442659552",
+				"method": "GET"
+			},
+			{
+				"id": "2197a568-efd3-435a-ac23-dec5f53a6366",
+				"method": "GET"
+			}
+		]
+	}
+}
